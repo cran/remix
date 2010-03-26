@@ -2,7 +2,7 @@
 \alias{tabular.data.frame}
 \title{Compute a contingency table (data...}
 \usage{tabular.data.frame(dfx, dfy, margin=0:2, useNA=c("no", "ifany",
-    "always"), propNA=TRUE)}
+    "always"), propNA=TRUE, addmargins=FALSE)}
 \description{Compute a contingency table (data.frame input)}
 \author{David Hajage}
 \keyword{internal}

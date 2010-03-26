@@ -2,7 +2,7 @@
 \alias{freq.data.frame}
 \title{Compute frequencies (data...}
 \usage{freq.data.frame(df, useNA=c("no", "ifany", "always"), propNA=TRUE,
-    cum=FALSE)}
+    cum=FALSE, addmargins=FALSE)}
 \description{Compute frequencies (data.frame input)}
 \author{David Hajage}
 \keyword{internal}
