@@ -1,18 +1,27 @@
+remix 2.1
+---------
+
+BUG FIXES
+
+* string "NA" were sometimes not printed with ascii() (pandoc print)
+
+* declare R >= 2.13.0 dependency in DESCRIPTION file
+
 remix 2.0
 ---------
 
 NEW FEATURES
 
-* Support label from package Hmisc (option label = TRUE)
+* Support label() from package Hmisc (option label = TRUE)
 
 * Basic univariate tests (option test = TRUE)
 
-* Can now handle univariate survival analysis (new class of data supported : Surv). 
+* Can now handle univariate survival analysis (new class of data supported: Surv). 
 
 BUG FIXES
 
 * Internal changes to take into account changes in ascii 2.0
 
-MINOR CHANGES
+DEPRECATED & DEFUNCT
 
-* Drop "|" syntax (since I finally think it is useless)
+* Drop "|" syntax (Finally, it is useless)

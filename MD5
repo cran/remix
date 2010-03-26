@@ -1,6 +1,6 @@
-b7638f0467e75fb5dfb6aff804b960b3 *DESCRIPTION
+5d85e03803d70ea136e03f2fdda3c4d7 *DESCRIPTION
 344128766120ef62ca70744ec0302ece *NAMESPACE
-5a2408b71c2bbececaf7b90d823fc748 *NEWS
+110a3d254015b69c7fccf774d28aaae1 *NEWS
 d033c490c7a0f0a1238fc9ead07fabbe *R/correlation.r
 20b75e42b456ce0a65d09e8b1d4bc410 *R/element.r
 17d0e70897b395011c802dbb1991c129 *R/freq.r
@@ -13,7 +13,7 @@ d033c490c7a0f0a1238fc9ead07fabbe *R/correlation.r
 2dd19bc1b41dddf8ce7b431acbc3a77e *R/summarize.r
 64ddfa367f229f10a01a39512fd252f4 *R/survival.r
 b12ba4b3dd38d658d59659ec205c245a *R/table.r
-60697a5ea9e5fa908e0e7da5e29624d3 *R/tabular.r
+e6c1b9acbf36eaf0f57c22b0a6d7e214 *R/tabular.r
 64a0be7037815446aa50f63428c701d1 *R/test.r
 c12d0ccbac4c650da4ce03e7b3b2cada *man/as.data.frame.correlation.Rd
 9d834158d5e4005d87560d2d741dc38c *man/as.data.frame.freq.Rd
