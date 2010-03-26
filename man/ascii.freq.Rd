@@ -1,9 +1,9 @@
 \name{ascii.freq}
 \alias{ascii.freq}
 \title{Ascii for freq object.}
-\usage{ascii.freq(x, format="nice", digits=5, include.rownames=TRUE,
-    rownames=attr(x, "rownames"), include.colnames=TRUE, header=TRUE,
-    lgroup=attr(x, "lgroup"), n.lgroup=attr(x, "n.lgroup"), ...)}
+\usage{ascii.freq(x, format="nice", digits=3, include.rownames=FALSE,
+    include.colnames=TRUE, header=TRUE, lgroup=attr(x, "lgroup"),
+    n.lgroup=attr(x, "n.lgroup"), ...)}
 \description{Ascii for freq object.}
 \details{Ascii method for freq object (internal).}
 \author{David Hajage}

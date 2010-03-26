@@ -324,6 +324,31 @@ print.remix <- function(x, type = "rest", caption.level = 1:3, lstyle = "", tsty
   invisible(x)
 }
 
+##' Demix
+##'
+##' Transfrom a remix object into a (list of) data.frame(s).
+##'
+##' @export
+##' @param x a remix object
+##'
+##' @return
+##'   A list of data.frame.
+##' @author David Hajage
+##' @seealso \code{remix}
+##' @examples
+##'   x <- remix(... ~ ., esoph, cum = TRUE)
+##'   demix(x)
+demix <- function(x) {
+  if (all(attr(x, "by") == ".")) {
+    result <- lapply(x, as.data.frame)
+  } else if (length(attr(x, "by")) == 1) {
+    result <- lapply(x, function(x) lapply(x, as.data.frame))
+  } else if (length(attr(x, "by")) > 1) {
+    result <- lapply(x, function(x) lapply(x, function(x) lapply(x, as.data.frame)))
+  }
+  return(result)
+}
+
 ##' Test if \code{x} is an remix object
 ##'
 ##' Test if \code{x} is an remix object
