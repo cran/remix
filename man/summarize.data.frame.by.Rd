@@ -1,0 +1,14 @@
+\name{summarize.data.frame.by}
+\alias{summarize.data.frame.by}
+\title{Compute summary statistics according to a factor (data...}
+\usage{summarize.data.frame.by(df, by, funs=c(mean, sd, quantile, n, na), ...,
+    useNA=c("no", "ifany", "always"), revert=FALSE)}
+\description{Compute summary statistics according to a factor (data.frame input)}
+\author{David Hajage}
+\keyword{internal}
+\arguments{\item{df}{data.frame}
+\item{by}{data.frame}
+\item{funs}{fuctions}
+\item{...}{passed to funs}
+\item{useNA}{useNA}
+\item{revert}{whether to regroup factors or numeric variables when crossing factor with numeric variables}}
