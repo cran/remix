@@ -2,8 +2,8 @@
 \alias{cross_list}
 \title{Cross variables in a list...}
 \usage{cross_list(l, funs=c(mean, sd, quantile, n, na), ..., cum=FALSE,
-    margin=0:2, useNA=c("no", "ifany", "always"), revert=FALSE,
-    method=c("pearson", "kendall", "spearman"))}
+    margin=0:2, useNA=c("no", "ifany", "always"), propNA=TRUE,
+    revert=FALSE, method=c("pearson", "kendall", "spearman"))}
 \description{Cross variables in a list}
 \author{David Hajage}
 \keyword{internal}
