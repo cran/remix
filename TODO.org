@@ -1,3 +1,0 @@
-* TODO as.data.frame.remix
-* TODO plot methods
-* TODO statistical tests
